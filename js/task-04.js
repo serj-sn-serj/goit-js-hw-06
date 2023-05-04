@@ -35,13 +35,13 @@ const refs = {
 };
 let value = 0;
 
-function handlerDecrementClick(event) {
+function handlerDecrementClick() {
     value -= 1;
     refs.counterValue.textContent = value;
     
 };
 
-function handlerIncrementClick(event) {
+function handlerIncrementClick() {
     value += 1;
     refs.counterValue.textContent = value;
    
