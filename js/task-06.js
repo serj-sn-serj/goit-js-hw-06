@@ -11,9 +11,11 @@
 
 const input = document.querySelector('#validation-input');
 
+input.value.trim()
 
 function handleInputBlur(event) {
 
+    // console.log(event.target.value);
     // console.log(event.target.dataset.length);
     // console.log(event.target.value.length);
 
